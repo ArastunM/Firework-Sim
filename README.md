@@ -1,5 +1,5 @@
 # Firework-Sim
-Firework simulator is C++ based basic graphic firework simulator. Program provides fireworks of various size, shape, coloring, lifetime and many other properties. Simply click on the screen to launch a random firework.
+Firework simulator is C++ based basic graphic firework simulator. Program provides fireworks of various size, shape, coloring, lifetime and many other properties. Fireworks can be launched by mouse clicks.
 
 <p align="center">
   <img src="demo/demo.png"></img>
