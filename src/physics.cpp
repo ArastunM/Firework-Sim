@@ -13,10 +13,10 @@ int fRand (int from, int to) {
 sf::Vector2f randOrigin (unsigned int width, unsigned int height) {
     return {static_cast<float>(fRand(0, width)), static_cast<float>(height)};
 }
-sf::Color randColor () { // from 30 onwards to promote light fireworks
-    sf::Color randCol(fRand(30, 255),
-                      fRand(30, 255),
-                      fRand(30, 255));
+sf::Color randColor () { // from 100 onwards to promote light fireworks
+    sf::Color randCol(fRand(100, 255),
+                      fRand(100, 255),
+                      fRand(100, 255));
     return randCol;
 }
 sf::Color randDivColor (float current, float maxVal, int div, std::vector<sf::Color> colors) {
